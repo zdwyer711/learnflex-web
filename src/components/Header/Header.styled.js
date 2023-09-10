@@ -8,6 +8,7 @@ export const HeaderWrapper = styled.div`
     padding-bottom: 10px;
     position: fixed;
     top: 0;
+    z-index: 50;
     box-shadow: -4px 5px 5px #171815;
 `;
 
