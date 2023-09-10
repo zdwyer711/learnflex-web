@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { GridWrapper, Row, Column,
    RegisterEmailInput, RegisterForm, SignUpButton,
-   RegisterEmailInputErrorMessage, EmailConfirmationMessage } from './Register.styled';
+   RegisterEmailInputErrorMessage, EmailConfirmationMessage,
+   RegisterTitle, RegisterMessage } from './Register.styled';
 import Header from '../Header';
 import Footer from '../Footer';
 
@@ -56,9 +57,9 @@ function Register(){
          <GridWrapper style={styles.container(matches)}>
             <Row>
                <Column>
-                  <h2>Swing into Success with 
-                     <br/> Your Perfect Swing!</h2>
-                  <p>
+                  <RegisterTitle>Swing into Success with 
+                     <br/> Your Perfect Swing!</RegisterTitle>
+                  <RegisterMessage>
                   Discover the ultimate golfing experience with 
                   our app that connects you to a diverse range of 
                   skilled golf instructors right in your area. 
@@ -71,7 +72,7 @@ function Register(){
                   seasoned players to improve their game and enjoy the
                   sport to the fullest. Elevate your golfing adventure
                   with us – where progress and passion unite.
-                  </p>
+                  </RegisterMessage>
                </Column>
                <Column>
                   <img src="rectangle-background_taller.png" alt='form_background_rectangle'/>

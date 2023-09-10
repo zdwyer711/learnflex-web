@@ -57,6 +57,16 @@ export const EmailConfirmationMessage = styled.p`
     margin-top: -3%;
 `;
 
+export const RegisterTitle = styled.h2`
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+`;
+
+export const RegisterMessage = styled.p`
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+`;
+
 export const RegisterForm = styled.form`
     top: -346px;
     position: relative;
