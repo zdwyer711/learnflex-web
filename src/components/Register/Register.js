@@ -25,7 +25,7 @@ function Register(){
       setEmail('');
     }
 
-    const handleFormSubmit = (e) => {{
+    const handleFormSubmit = (e) => {
       e.preventDefault();
       if (email.length === 0) {
          setEmail('');
@@ -48,7 +48,7 @@ function Register(){
             console.log('ERROR: ' + error);
          });
       }
-    }}
+    }
  
    return(
    <>

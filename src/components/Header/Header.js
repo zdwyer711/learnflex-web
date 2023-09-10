@@ -24,7 +24,7 @@ function Header(){
             <HeaderRow>
                <HeaderColumn>
                <a href='/'>
-                  <img src="logo-learnflex.png" style={{ paddingTop: '6px'}}/></a>
+                  <img src="logo-learnflex.png" style={{ paddingTop: '6px'}} alt='learnflex_logo'/></a>
                <a href='/' style={{ textDecoration: 'none' }}>
                   <h3 style={{ paddingTop: '8px', color: 'white' }}>LearnFlex</h3> 
                </a>
