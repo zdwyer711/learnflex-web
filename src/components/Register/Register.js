@@ -37,7 +37,7 @@ function Register(){
             email: email
          }
          
-         const response = fetch('http://localhost:8080/v1/emailFormSubmit', {
+         fetch('http://localhost:8080/v1/emailFormSubmit', {
             method: 'POST',
             headers: {
                'Content-Type': 'application/json',
@@ -74,7 +74,7 @@ function Register(){
                   </p>
                </Column>
                <Column>
-                  <img src="rectangle-background_taller.png"/>
+                  <img src="rectangle-background_taller.png" alt='form_background_rectangle'/>
                   <RegisterForm>
                   <h2>Get Early Access</h2>
                   <h3>Join our waitlist and get access to <br/>
@@ -93,7 +93,7 @@ function Register(){
                      <SignUpButton onClick={handleFormSubmit} style={styles.emailErrorButton(isEmailValid)} isEmailValid={isEmailValid} isEmailConfirmed={isEmailConfirmed}>
                         Sign Up</SignUpButton>
                      <div style={styles.emailConfirmation(isEmailConfirmed)}>
-                        <img src='email.png'/>
+                        <img src='email.png' alt='email_confirmation_icon'/>
                         <EmailConfirmationMessage>Successfully registered!</EmailConfirmationMessage>
                      </div>
                   </RegisterForm>

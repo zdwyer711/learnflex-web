@@ -1,4 +1,4 @@
-import React, { Register } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
 import { Header } from './components';
@@ -31,7 +31,7 @@ function App() {
               <button className='registerButton' onClick={navigateRegister}>Register</button>
           </div>
           <div className='column'>
-            <img src="landing_page_3.png"/>
+            <img src="landing_page_3.png" alt="landing_page_img"/>
           </div>
         </div>
       </div>
